@@ -34,9 +34,3 @@ nosetests.xml
 .project
 .pydevproject
 
-def main():
-    choice = "Nothing for the moment"
-    while(choice != "Quit" and choice != "quit" and choice != "q"):
-        choice = raw_input("Would you like to decode or encode? If you'd like "
-        "to see my extra credit, type extra: ")
-
